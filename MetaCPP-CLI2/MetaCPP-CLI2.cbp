@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MetaCPP-CLI2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\MetaCPP\;CMake Files\..\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v all"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v edit_cache"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MetaCPPCLI2">
+				<Option output="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPPCLI2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/../External/Mustache"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/../External/rapidjson/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v MetaCPPCLI2"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MetaCPPCLI2/fast">
+				<Option output="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPPCLI2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/../External/Mustache"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/../External/rapidjson/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v MetaCPPCLI2/fast"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MetaCPP">
+				<Option output="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPP/libMetaCPP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPP"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/../External/rapidjson/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v MetaCPP"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MetaCPP/fast">
+				<Option output="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPP/libMetaCPP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaCPP"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include"/>
+					<Add directory="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/../External/rapidjson/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/ninja -v MetaCPP/fast"/>
+					<CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/ninja -v clean"/>
+					<DistClean command="/usr/local/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/ASTScraper.cpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/ASTScraper.hpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/Main.cpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaExporter.cpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/MetaExporter.hpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/ScraperTool.cpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/ScraperTool.hpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/Templates.hpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/templates/json.template.hpp">
+			<Option target="MetaCPPCLI2"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Container.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Field.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/JsonSerializer.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Method.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/QualifiedName.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/QualifiedType.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Runtime.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/SequentialContainer.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Storage.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/Type.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/TypeID.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/TypeInfo.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/all.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/include/MetaCPP/allG.hpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Container.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Field.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/JsonSerializer.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Method.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/QualifiedName.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/QualifiedType.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Runtime.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/SequentialContainer.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Storage.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/Type.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP/src/MetaCPP/allG.cpp">
+			<Option target="MetaCPP"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/../MetaCPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\MetaCPP\"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/../CMake/FindClang.cmake">
+			<Option virtualFolder="CMake Files\..\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2/../CMake/FindLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

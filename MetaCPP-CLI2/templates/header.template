@@ -1,0 +1,21 @@
+R"(/****************************************************************************
+** MetaCPP
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <MetaCPP/TypeInfo.hpp>
+
+{{#includes}}
+#include "{{file}}"
+{{/includes}}
+
+namespace metacpp {
+	class Storage;
+}
+
+namespace metacpp { namespace generated {
+	extern void Load(Storage* storage);
+} }
+
+)"

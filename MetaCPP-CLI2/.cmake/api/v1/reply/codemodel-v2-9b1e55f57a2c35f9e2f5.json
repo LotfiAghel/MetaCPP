@@ -1,0 +1,100 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "MetaCPP",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/lotfi/programing/cpp/MetaCPP/MetaCPP",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MetaCPP-CLI2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MetaCPP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "MetaCPP::@a259fc1232a6101201c2",
+					"jsonFile" : "target-MetaCPP-Debug-325f34d2f46510a2488e.json",
+					"name" : "MetaCPP",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MetaCPPCLI2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MetaCPPCLI2-Debug-6e1cb0cc80addd323491.json",
+					"name" : "MetaCPPCLI2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2",
+		"source" : "/home/lotfi/programing/cpp/MetaCPP/MetaCPP-CLI2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
